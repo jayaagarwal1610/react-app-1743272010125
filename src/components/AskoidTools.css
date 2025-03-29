@@ -1,0 +1,87 @@
+.askoid-tools {
+  padding: 80px 0;
+}
+
+.tools-container {
+  margin-top: 40px;
+}
+
+.tools-nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.tool-btn {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #a0a0a0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.tool-btn.active {
+  background: #2a2a2a;
+  color: white;
+  border-color: #444;
+}
+
+.tool-btn:hover {
+  background: #222;
+  color: white;
+}
+
+.tool-preview {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #1a1a1a;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.tool-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.tool-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+.tool-content p {
+  color: #a0a0a0;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.tool-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.tool-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 992px) {
+  .tool-preview {
+    flex-direction: column;
+  }
+  
+  .tool-content {
+    padding: 30px;
+    text-align: center;
+  }
+}

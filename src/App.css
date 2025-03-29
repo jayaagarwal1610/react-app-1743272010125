@@ -1,0 +1,43 @@
+.app {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  background: linear-gradient(90deg, #FFC700 0%, #FF9900 100%);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ffffff50;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+
+.btn-outline:hover {
+  background: #ffffff10;
+}
